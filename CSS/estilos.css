@@ -1,0 +1,126 @@
+body{
+   background-color: rgba(175, 249, 225, 0.233) !important;
+}
+
+div.container-fluid{
+    background-color: #21d0f38a;
+}
+div.carousel-item {
+    max-height: 400px;
+    overflow: hidden;
+    height: 400px; /* Altura fija para el carrusel */
+ }
+ 
+ div.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+ }
+ 
+ .carousel-inner {
+    height: 400px; /* Asegura que el contenedor interno también tiene altura fija */
+ }
+
+ p.p1{
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(251, 76, 76, 0.783);
+    text-decoration-line: underline;
+ }
+ .bi-spotify{
+    color: rgb(31, 227, 31);
+    font-size: 50px;
+ }
+ .bi-check-all{
+    color: rgb(6, 96, 242);
+    font-size: 50px;
+ }
+ .bi-music-note-beamed{
+    color: black;
+    font-size: 50px;
+ }
+ .bi-backpack{
+   color:rgba(210, 210, 2, 0.886);
+   font-size: 50px;
+}
+
+ #idp1{
+    color: rgb(6, 96, 242);
+ }
+ #idp2{
+    color: rgb(31, 227, 31);
+ }
+ #idp3{
+   color:rgba(210, 210, 2, 0.886);
+}
+ .col-6 {
+    max-height: 400px;
+    overflow: hidden;
+    height: 400px;
+ }
+ div.col-6 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+ }
+ 
+ p.al{
+    display: grid;
+    place-items: center;
+ }
+ 
+ div.accordion-item{
+    background-color: rgb(2, 202, 202);
+    color: white;
+ }
+ button.accordion-button{
+    background-color: darkblue;
+    color: white;
+ }
+
+ i{
+    font-size: 25px;
+ }
+
+ div.texto{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ footer{
+    background-color: rgba(101, 99, 99, 0.58);
+    height: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+ }
+
+ 
+div.acordeon{
+   width: 75%;
+}
+
+#Servicios{
+   margin-top: 80px;
+}
+#Nosotros{
+   margin-top: 80px;
+}
+#FAQ{
+   margin-top: 80px;
+}
+#Contacto{
+   margin-top: 80px;
+}
+#mapa{
+   margin-top: 80px;
+}
+#footer{
+   margin-top: 80px;
+}
+h2{
+   text-align: center;
+   color: blueviolet !important;
+   margin-bottom: 10px !important;
+}
